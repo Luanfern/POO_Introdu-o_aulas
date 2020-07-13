@@ -14,6 +14,7 @@ public function __Construct($setmarca , $setcor, $setplaca, $setmodelo){
     $this->placa = $setplaca;
     $this->modelo = $setmodelo;
 }
+//faltam os getters e setters
 
 public function imprimir(){
     return $this->marca . "<br/>" . $this->cor . "<br/>" . "Placa : " . $this->placa . "<br/>" . $this->modelo . "<br/>";

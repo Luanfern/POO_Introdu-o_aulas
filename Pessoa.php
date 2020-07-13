@@ -2,66 +2,56 @@
 
 class Pessoa{
 
-private $nome;
-private $idade;
-private $peso;
-private $sexo;
+  private $nome;
+  private $idade;
+  private $peso;
+  private $sexo;
 
-public function getSexo()
-{
-return $this->sexo;
-}
+  public function getSexo()
+  {
+  return $this->sexo;
+  }
 
-public function setSexo($sexo)
-{
-$this->sexo = $sexo;
+  public function setSexo($sexo)
+  {
+  $this->sexo = $sexo;
+  }
 
-return $this;
-}
+  public function getPeso()
+  {
+  return $this->peso;
+  }
 
-
-
-public function getPeso()
-{
-return $this->peso;
-}
-
-public function setPeso($peso)
-{
-$this->peso = $peso;
-
-return $this;
-}
+  public function setPeso($peso)
+  {
+  $this->peso = $peso;
+  }
 
 
 
-public function getIdade()
-{
-return $this->idade;
-}
+  public function getIdade()
+  {
+  return $this->idade;
+  }
 
 
-public function setIdade($idade)
-{
-$this->idade = $idade;
-
-return $this;
-}
+  public function setIdade($idade)
+  {
+  $this->idade = $idade;
+  }
 
 
 
-public function getNome()
-{
-return $this->nome;
-}
+  public function getNome()
+  {
+  return $this->nome;
+  }
 
 
-public function setNome($nome)
-{
-$this->nome = $nome;
-
-return $this;
-}
+  public function setNome($nome)
+  {
+  $this->nome = $nome;
+  }
 }
 
 ?>
