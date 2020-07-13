@@ -25,8 +25,9 @@ echo $Carro1->imprimir();
 echo "<br/>" . "<br/>" . "<br/>";
 echo "<h3>Livro</h3>";
 
+//método abaixo não deve ser utilizado. Utilize o encapsulamento.
 $Livro1 = new Livro();
-$Livro1->titulo = 'O auto da Barco do Inferno'; 
+$Livro1->titulo = 'O auto da Barco do Inferno';
 $Livro1->autor = 'Gil Vincente';
 $Livro1->ano = '1517 - Primeira Edicao';
 $Livro1->edicao = 'Indeterminada';
